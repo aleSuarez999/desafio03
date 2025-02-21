@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    margin-left: 2px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    background-color: #eeece8;
+/*    color: #775548; ESTO ME PISA EL CLASS DEL A  
+    POR ESO LO MANDO AL BODY
+*/
+
+}
+
+body{
+    color: #775548;
+}
+
+header{
+    justify-content: center;
+    /*display: flex; con esto el nav se me va a la derecha*/
+    
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+#imagen_fonde_header{
+    width: 100%;
+    
+}   
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+nav ul li{
+    
+    
+    list-style-type: none;
+    color: #ef6925;
+    
+    
+}
+nav li a {
+    
+    color: #ef6925;
+    text-decoration: underline;
+    /*background-color: aqua;*/
+    font-weight: 700 ;
+    font-size: 1.1rem;
+
+}
+
+#menu_superior a{
+    color: #ef6925;
+    text-decoration: underline;
+    /*background-color: aqua;*/
+    font-weight: bold ;
+    font-size: 1.1rem;
+}
+
+.container ul li {
+    margin-left: 35px;
+    list-style-type:disc;
+}
+h1 {
+    font-size: 2rem;
+    margin: 15px 0px 15px 0px;
+    
+}
+
+h2 {
+    color:#e1d4cf;
+    margin: 20px 0px 20px 0px;
+    background-color: #775548
+    
+}
+.h2_amarillo{
+    color: #d8b03b;
+}
+
+.a_naranja{
+    color:#ef6b20;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.a_celeste_bold{
+    color:cadetblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.a_rojo_bold{
+    color:red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ol li{
+    
+    margin-left: 35px;
+}
+#ul_circle li{
+    list-style-type: circle;
+}
+
+P{
+    margin-bottom: 15px;
+}
